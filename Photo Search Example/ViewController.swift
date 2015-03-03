@@ -40,6 +40,7 @@ class ViewController: UIViewController, UISearchBarDelegate {
         
         searchBar.resignFirstResponder()
         searchInstagramByHashtag(searchBar.text)
+         
     }
     
     func searchInstagramByHashtag(searchString:String) {
